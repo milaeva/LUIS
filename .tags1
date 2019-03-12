@@ -1,0 +1,41 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+html	D:\github\LUIS\index.html	/^<html lang="en">$/;"	function	line:2
+head	D:\github\LUIS\index.html	/^<head>$/;"	function	line:3
+meta	D:\github\LUIS\index.html	/^  <meta charset="UTF-8">$/;"	function	line:4
+meta	D:\github\LUIS\index.html	/^  <meta name="viewport" content="width=device-width, initial-scale=1.0">$/;"	function	line:5
+meta	D:\github\LUIS\index.html	/^  <meta http-equiv="X-UA-Compatible" content="ie=edge">$/;"	function	line:6
+title	D:\github\LUIS\index.html	/^  <title>luis<\/title>$/;"	function	line:7
+link	D:\github\LUIS\index.html	/^  <link rel="stylesheet" href="css\/style.css">$/;"	function	line:8
+link	D:\github\LUIS\index.html	/^  <link rel="stylesheet" href="css\/normalize.css">$/;"	function	line:9
+body	D:\github\LUIS\index.html	/^<body>$/;"	function	line:11
+div	D:\github\LUIS\index.html	/^  <div class="header">$/;"	function	line:12
+div	D:\github\LUIS\index.html	/^    <div class="container">$/;"	function	line:13
+div	D:\github\LUIS\index.html	/^      <div class="navbar">$/;"	function	line:14
+div	D:\github\LUIS\index.html	/^        <div class="navbar__logo">$/;"	function	line:15
+img	D:\github\LUIS\index.html	/^          <img src="img\/Vector Smart Object.png" alt="" class="logo__image">$/;"	function	line:16
+div	D:\github\LUIS\index.html	/^          <div class="logo__logo">$/;"	function	line:17
+strong	D:\github\LUIS\index.html	/^            <strong class="logo__title">Oenrique<\/strong>$/;"	function	line:18
+span	D:\github\LUIS\index.html	/^            <span class="logo__subtitle">UX\/UI Expert<\/span>$/;"	function	line:19
+div	D:\github\LUIS\index.html	/^        <div class="navbar__menu">$/;"	function	line:22
+a	D:\github\LUIS\index.html	/^          <a href="#" class="menu__top">home<\/a>$/;"	function	line:23
+a	D:\github\LUIS\index.html	/^          <a href="#" class="menu__top">about<\/a>$/;"	function	line:24
+a	D:\github\LUIS\index.html	/^          <a href="#" class="menu__top">service<\/a>$/;"	function	line:25
+a	D:\github\LUIS\index.html	/^          <a href="#" class="menu__top">portpholio<\/a>$/;"	function	line:26
+a	D:\github\LUIS\index.html	/^          <a href="#" class="menu__top">contact<\/a>$/;"	function	line:27
+div	D:\github\LUIS\index.html	/^      <div class="about">$/;"	function	line:30
+div	D:\github\LUIS\index.html	/^        <div class="about__content">$/;"	function	line:31
+h	D:\github\LUIS\index.html	/^          <h1 class="about__title">Luis Oenrique<\/h1>$/;"	function	line:32
+p	D:\github\LUIS\index.html	/^          <p class="about__subtitle">User Experience \/ User Interface Expert<\/p>$/;"	function	line:33
+div	D:\github\LUIS\index.html	/^          <div class="button">$/;"	function	line:34
+button	D:\github\LUIS\index.html	/^            <button class="about__button">$/;"	function	line:35
+a	D:\github\LUIS\index.html	/^              <a href="#" class="about__btn">KNOW MORE<\/a>$/;"	function	line:36
+div	D:\github\LUIS\index.html	/^          <div class="button">$/;"	function	line:39
+button	D:\github\LUIS\index.html	/^            <button class="about__button1">$/;"	function	line:40
+a	D:\github\LUIS\index.html	/^              <a href="#" class="about__btn1">HIRE ME<\/a>$/;"	function	line:41
+div	D:\github\LUIS\index.html	/^        <div class="about__image">$/;"	function	line:45
+img	D:\github\LUIS\index.html	/^          <img src="img\/img face.png" alt="" class="about__img">$/;"	function	line:46
