@@ -52,7 +52,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 90px; }
+  height: 70px; }
   .navbar__logo {
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -84,34 +84,38 @@
 .logo__title {
   margin-left: 8px;
   padding: 5px; }
+.logo__subtitle {
+  font-size: 8px; }
 
+.menu__home {
+  border-bottom: 1px solid black; }
 .menu__top {
   margin-left: 30px;
   font-family: 'Asap', sans-serif;
   text-transform: uppercase;
   text-decoration: none; }
 
-.about {
+.home {
   padding-top: 1px; }
-  .about__title {
-    padding-top: 266px;
+  .home__title {
+    padding-top: 230px;
     font-family: 'Asap', sans-serif;
     font-size: 70px; }
-  .about__image {
-    margin-top: -420px;
+  .home__image {
+    margin-top: -470px;
     margin-left: 150px; }
-  .about__subtitle {
+  .home__subtitle {
     font-family: 'Asap', sans-serif;
     font-size: 22px;
     padding-bottom: 50px; }
-  .about__button {
+  .home__button {
     width: 160px;
     height: 50px;
     font-family: 'Asap', sans-serif; }
-  .about__btn {
+  .home__btn {
     text-decoration: none;
     color: black; }
-  .about__button1 {
+  .home__button1 {
     position: relative;
     width: 160px;
     height: 50px;
@@ -122,7 +126,7 @@
     margin-left: 20px;
     padding-top: 1px;
     color: black; }
-  .about__btn1 {
+  .home__btn1 {
     text-decoration: none; }
 
 body {
@@ -136,28 +140,72 @@ body {
   -webkit-transform: scale(1.2);
           transform: scale(1.2); }
 
-.about__button:hover {
+.home__button:hover {
   background-color: #fff;
   border: none;
   -webkit-transition: 2s;
   transition: 2s;
   -webkit-transform: scale(1.2);
           transform: scale(1.2); }
-.about__button1:hover {
+.home__button1:hover {
   background-color: #8f93ac;
   border: none;
   -webkit-transition: 2s;
   transition: 2s;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
-  border: 2px solid #fff;
-  color: green; }
+  border: 2px solid #fff; }
+.home__btn1:hover {
+  color: #fff; }
 
 .navbar__logo:hover {
   border: 1px solid #fff;
   -webkit-transition: 2s;
   transition: 2s;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3); }
+
+.about__button:hover {
+  background-color: #a1a1a1;
+  border: yellow;
+  -webkit-transition: 2s;
+  transition: 2s;
   -webkit-transform: scale(1.2);
           transform: scale(1.2); }
+.about__btn:hover {
+  color: #fff; }
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 112px;
+  margin-bottom: 125px; }
+  .about__text {
+    font-size: 16px;
+    font-family: 'Asap', sans-serif; }
+  .about__title {
+    color: #797979;
+    font-size: 46px;
+    margin-bottom: 10px; }
+  .about__button {
+    height: 50px;
+    width: 245px;
+    margin-top: 30px; }
+  .about__subtitle {
+    font-size: 16px;
+    line-height: 1.5; }
+  .about__button {
+    background-color: #fff;
+    border: 1px solid grey; }
+  .about__btn {
+    text-decoration: none;
+    color: black; }
 
 /*# sourceMappingURL=style.css.map */
