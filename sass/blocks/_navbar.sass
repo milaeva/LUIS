@@ -6,9 +6,12 @@
   display: flex
   justify-content: space-between
   align-items: center
-  height: 100px
+  height: 90px
   &__logo
     align-items: center
+    display: flex
+    flex-direction: column
+    justify-content: center
 
   &__menu
     display: flex
@@ -17,48 +20,48 @@
     margin-left: 580px
 .logo
   &__image
-    margin-left: 38px
-  &__logo
-    display: flex
-    flex-direction: column
-    justify-content: center
-
+    margin-top: 35px
   &__title
     margin-left: 8px
     padding: 5px
 .menu
   &__top
     margin-left: 30px
-    +prox_light
+    +asap
     text-transform: uppercase
     text-decoration: none
 .about
+  padding-top: 1px
   &__title
-    padding-top: 360px
-    +bold
+    padding-top: 266px
+    +asap
     font-size: 70px
   &__image
-    margin-top: -460px
+    margin-top: -420px
     margin-left: 150px
   &__subtitle
-    +light
+    +asap
     font-size: 22px
     padding-bottom: 50px
   &__button
     width: 160px
     height: 50px
-
-    +prox_light
+    +asap
 
   &__btn
     text-decoration: none
+    color: black
+
   &__button1
+    position: relative
     width: 160px
     height: 50px
     background-color: #fff
     border: none
-    +prox_light
+    +asap
     margin-top: 20px
-    
+    margin-left: 20px
+    padding-top: 1px
+    color: black
   &__btn1
     text-decoration: none
