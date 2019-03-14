@@ -83,7 +83,8 @@
   margin-top: 35px; }
 .logo__title {
   margin-left: 8px;
-  padding: 5px; }
+  padding: 5px;
+  color: #5f5f5f; }
 .logo__subtitle {
   font-size: 8px; }
 
@@ -159,7 +160,6 @@ body {
   color: #fff; }
 
 .navbar__logo:hover {
-  border: 1px solid #fff;
   -webkit-transition: 2s;
   transition: 2s;
   -webkit-transform: scale(1.3);
@@ -174,6 +174,37 @@ body {
           transform: scale(1.2); }
 .about__btn:hover {
   color: #fff; }
+
+.services__user:hover {
+  background-color: transform(blue);
+  -webkit-transition: 2s;
+  transition: 2s;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2); }
+
+.portpholio__items:hover {
+  -webkit-transition: 2s;
+  transition: 2s;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5);
+          box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5); }
+.portpholio__btn:hover {
+  -webkit-transition: 2s;
+  transition: 2s;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5);
+          box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5); }
+
+.testimonials__icon:hover {
+  width: 180px;
+  height: 180px;
+  border: 1px solid yellow;
+  -webkit-transition: 2s;
+  transition: 2s;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2); }
 
 .about {
   display: -webkit-box;
@@ -193,7 +224,8 @@ body {
   .about__title {
     color: #797979;
     font-size: 46px;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    margin-top: 10px; }
   .about__button {
     height: 50px;
     width: 245px;
@@ -207,5 +239,341 @@ body {
   .about__btn {
     text-decoration: none;
     color: black; }
+
+.services {
+  background-color: #f6f6f6; }
+  .services__title {
+    font-size: 46px;
+    text-transform: uppercase;
+    font-family: 'Asap', sans-serif;
+    color: #a3a3a3;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 120px; }
+  .services__service {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center; }
+  .services__user {
+    height: 165px;
+    width: 225px;
+    margin: 50px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center; }
+  .services__text {
+    padding-top: 10px;
+    font-family: 'Asap', sans-serif;
+    font-size: 24px; }
+
+.skills__title {
+  font-family: 'Asap', sans-serif;
+  color: #a3a3a3;
+  font-size: 46px;
+  text-transform: uppercase;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 120px;
+  padding-bottom: 50px; }
+.skills__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+.skills__line {
+  background-color: #fafafa;
+  min-width: 950px;
+  height: 63px;
+  border-top: 1px solid grey; }
+.skills__column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-left: 150px;
+  font-family: 'Asap', sans-serif; }
+.skills__item {
+  margin-left: 180px;
+  margin-right: 160px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 50px;
+  font-family: 'Asap', sans-serif; }
+.skills__image {
+  margin-top: -444px;
+  margin-left: 200px;
+  position: absolute; }
+.skills__rows {
+  min-width: 950px;
+  margin-top: 60px;
+  margin-left: 220px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.portpholio {
+  background-color: #f6f6f6; }
+  .portpholio__title {
+    font-family: 'Asap', sans-serif;
+    color: #a3a3a3;
+    font-size: 46px;
+    text-transform: uppercase;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 50px; }
+  .portpholio__items {
+    margin: 10px;
+    width: 30%;
+    height: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-shadow: 0 0 10px rgba(122, 122, 122, 0.6);
+            box-shadow: 0 0 10px rgba(122, 122, 122, 0.6); }
+  .portpholio__button1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 20px; }
+  .portpholio__btn {
+    height: 48px;
+    width: 192px;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 120px;
+    background-color: #fff;
+    border: 1px solid grey;
+    -webkit-box-shadow: 0 0 10px rgba(122, 122, 122, 0.5);
+            box-shadow: 0 0 10px rgba(122, 122, 122, 0.5); }
+  .portpholio__btn1 {
+    text-decoration: none;
+    color: #b4b4b4; }
+
+.testimonials__title {
+  font-family: 'Asap', sans-serif;
+  color: #868686;
+  font-size: 46px;
+  text-transform: uppercase;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 120px;
+  padding-bottom: 50px; }
+.testimonials__slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  border: 1px solid black;
+  padding-bottom: 80px;
+  padding-top: 80px;
+  padding-left: 50px; }
+.testimonials__info {
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+.testimonials__subtitle {
+  color: #979797;
+  font-size: 30px;
+  line-height: 1.5; }
+.testimonials__post {
+  font-size: 12px;
+  line-height: 2.1; }
+.testimonials__review {
+  color: #d5d5d5;
+  font-size: 16px;
+  line-height: 1.5; }
+.testimonials__img {
+  margin-right: 30px; }
+.testimonials__icons {
+  background-color: #f6f6f6;
+  margin-top: 100px; }
+.testimonials__pro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 25px;
+  font-family: 'Asap', sans-serif; }
+.testimonials__icon {
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  line-height: 1.5; }
+.testimonials__content {
+  margin-top: 10px; }
+
+.feedback {
+  background-image: url(../img/contact_bg.png);
+  background-size: cover;
+  margin-top: 100px;
+  position: relative; }
+  .feedback__title {
+    font-family: 'Asap', sans-serif;
+    font-size: 46px;
+    text-transform: uppercase;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 50px;
+    color: #fff;
+    position: relative; }
+  .feedback__name {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 15px; }
+  .feedback__message {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .feedback input {
+    min-width: 370px;
+    min-height: 58px;
+    margin: 11px;
+    padding-left: 5px;
+    font-family: 'Asap', sans-serif;
+    color: #cfcfcf;
+    background-color: #fff;
+    position: relative; }
+  .feedback textarea {
+    width: 769px;
+    height: 208px;
+    padding: 5px;
+    font-family: 'Asap', sans-serif;
+    color: #cfcfcf;
+    background-color: #fff;
+    position: relative; }
+  .feedback__button {
+    height: 50px;
+    width: 123px;
+    margin: 50px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    position: relative; }
+  .feedback__btn {
+    text-decoration: none;
+    color: #636363; }
+
+.feedback::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #646465;
+  opacity: 0.6; }
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  height: 80px;
+  border-top: 2px solid #fff; }
 
 /*# sourceMappingURL=style.css.map */
