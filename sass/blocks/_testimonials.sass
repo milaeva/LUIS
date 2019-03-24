@@ -25,9 +25,11 @@
     color: #979797
     font-size: 30px
     line-height: 1.5
+    padding-right: 10px
   &__post
     font-size: 12px
     line-height: 2.1
+    padding-right: 20px
   &__review
     color: #d5d5d5
     font-size: 16px
@@ -39,7 +41,7 @@
     margin-top: 100px
     margin-bottom: 50px
   &__pro
-    // height: 500px
+    min-height: 550px
     display: flex
     justify-content: space-between
     align-items: center
@@ -47,6 +49,7 @@
     // margin-top: 100px
     +asap
   &__icon
+    padding: 20px
     display: block
     justify-content: center
     text-align: center
@@ -55,3 +58,45 @@
     // margin: 20px
   &__content
     margin-top: 10px
+@media screen and (max-width: 1120px)
+  .testimonials
+    &__icons
+      display: block
+      flex-wrap: wrap
+    &__btn
+      display: none
+@media screen and (max-width: 550px)
+  .testimonials
+    &__pro
+      display: block
+
+    &__btn
+      display: none
+@media screen and (max-width: 504px)
+  .testimonials
+    &__info
+      display: flex
+      flex-direction: column
+      align-items: flex-end
+      justify-content: center
+    &__review
+      display: none
+    // &__btn
+    //   text-decoration: none
+    //   color: black
+    // &__btn:hover &__review
+    //   transform: translateY(0)
+    //   transition-delay: .1s
+    //   opacity: 1
+    // &__review
+    //   color: #000
+    //   font-family: "Muli", sans-serif
+    //   font-size: 14px
+    //   text-align: center
+    //   padding: 0 30px
+    //   transform: translateY(50px)
+    //   opacity: 0
+    //   transition: transform .7s, opacity .7s
+    //   width: 100%
+    //   display: block
+    //   flex-wrap: wrap

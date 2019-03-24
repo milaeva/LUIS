@@ -5,6 +5,7 @@
   margin-top: 112px
   margin-bottom: 125px
   &__text
+    min-height: 550px
     font-size: 16px
     +asap
   &__title
@@ -26,3 +27,44 @@
   &__btn
     text-decoration: none
     color: black
+
+
+@media screen and (max-width: 1120px)
+  .container
+    max-width: 960px
+    margin: auto
+    padding: auto
+  .about
+    width: 100%
+    height: auto
+    display: block
+    justify-content: center
+    align-items: center
+    text-align: center
+    padding-left: -135px
+    background-image: url( ../img/img_bg.png )
+    background-size: contain
+    background-repeat: no-repeat
+    &__image
+      display: none
+    &__text
+      width: 100%
+      padding: 30px
+      margin: 0
+      background-color: rgba(116, 117, 117, .4)
+    &__title
+      display: block
+      justify-content: space-between
+      align-items: center
+      padding-top: 100px
+
+      color: #fff
+    &__subtitle
+      color: #fff
+      padding-left: 50px
+      padding-right: 50px
+      justify-content: space-around
+@media screen and (max-width: 370px)
+  .about
+    &__subtitle
+      display: none

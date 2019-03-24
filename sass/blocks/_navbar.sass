@@ -7,6 +7,7 @@
   justify-content: space-between
   align-items: center
   height: 70px
+  min-width: 1170px
   &__logo
     align-items: center
     display: flex
@@ -16,8 +17,8 @@
   &__menu
     display: flex
     align-items: center
-    justify-content: center
-    margin-left: 580px
+    justify-content: space-between
+    text-align: center
 .logo
   &__image
     margin-top: 35px
@@ -37,26 +38,38 @@
     text-decoration: none
 .home
   padding-top: 1px
+  padding: 10px
+  width: 100%
+  // min-height: 750px
+  &__content
+    min-height: 650px
+    // width: 100%
+    background-image: url(../img/face.png)
+    background-size: contain
+    background-repeat: no-repeat
+    margin-top: 100px
+    // margin-left: 210px
+    padding-bottom: 100px
+
   &__title
-    padding-top: 230px
+    padding-top: 180px
+    padding-left: 10px
     +asap
     font-size: 70px
-  &__image
-    margin-top: -470px
-    margin-left: 150px
   &__subtitle
     +asap
     font-size: 22px
-    padding-bottom: 50px
+    // padding-bottom: 50px
   &__button
     width: 160px
     height: 50px
     +asap
-
+    border: none
+    background-color: #8f93ac
+    // margin-bottom: 250px
   &__btn
     text-decoration: none
-    color: black
-
+    color: #fff
   &__button1
     position: relative
     width: 160px
@@ -66,17 +79,116 @@
     +asap
     margin-top: 20px
     margin-left: 20px
+    // margin-bottom: 300px
     padding-top: 1px
     color: black
   &__btn1
     text-decoration: none
 
-@media only screen and (max-width: 767px)
+@media screen and (max-width: 1120px)
   .navbar
-    display: flex
-    flex-wrap: wrap
-    width: 100%
+    display: contents
+    flex-direction: column
+    justify-content: center
+    position: fixed
+
     &__menu
       display: flex
-      flex-wrap: wrap
+      justify-content: space-around
+      padding-top: 30px
+  .home
+    &__content
+      margin-top: 100px
+      padding-bottom: 150px
+    &__title
+      margin-top: 50px
+    &__subtitle
+      margin-top: 50px
+
+@media screen and (max-width: 960px)
+  .home
+    &__content
       width: 100%
+
+    &__title
+      padding-top: 110px
+      font-size: 46px
+    &__subtitle
+      margin-left: 13px
+      font-size: 18px
+    &__button
+      margin-left: 13px
+      margin-bottom: 150px
+
+@media screen and (max-width:760px)
+  .home
+    &__content
+      width: 100%
+      padding-bottom: 0
+    &__title
+      padding-top: 80px
+      font-size: 46px
+    &__subtitle
+      margin-left: 13px
+      margin-bottom: 30px
+      font-size: 18px
+    &__button
+      margin-left: 13px
+      margin-bottom: 60px
+      background-color: #daddf6
+    &__button1
+      background-color: #c9cff8
+
+@media screen and (max-width: 560px)
+  .home
+    // background-color: rgba(116, 117, 117, .4)
+    &__content
+      width: auto
+      min-height: 500px
+      background-image: url(../img/face1.png)
+      background-size: contain
+      background-repeat: no-repeat
+    &__content1
+      width: 100%
+      min-height: 500px
+      background-color: rgba(221, 221, 221, 0.62)
+
+@media screen and (max-width: 460px)
+  .navbar
+    &__menu
+      display: block
+      justify-content: space-around
+
+  .home
+    &__content1
+      width: 100%
+      display: block
+    /*выровнять по дисплею*/
+    &__title
+      display: flex
+      justify-content: center
+      align-items: center
+      padding-top: 60px
+      font-size: 36px
+    &__subtitle
+      text-align: center
+      margin-left: 8px
+      font-size: 14px
+      margin-bottom: 30px
+
+    &__button
+      width: 100%
+      height: 50px
+      margin-bottom: 5px
+      margin-left: 0
+    &__button1
+      width: 100%
+      height: 50px
+      margin-top: 5px
+      margin-bottom: 10px
+      margin-left: 0
+  .button
+    text-align: center
+    display: flex
+    flex-direction: column
+    justify-content: center

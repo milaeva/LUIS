@@ -1,5 +1,6 @@
 .portpholio
   background-color: #f6f6f6
+
   &__title
     +asap
     color: #a3a3a3
@@ -12,11 +13,13 @@
     padding-bottom: 50px
   &__items
     margin: 10px
-    width: 30%
+    width: 100
     height: auto
     align-items: center
     justify-content: center
     box-shadow: 0 0 10px rgba(122,122,122,0.6)
+    img
+      width: 100%
   &__button1
     display: flex
     justify-content: center
@@ -37,3 +40,55 @@
   &__btn1
     text-decoration: none
     color: #b4b4b4
+
+  &__image
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+
+
+@media screen and (max-width: 760px)
+  .portpholio
+    &__items
+      margin: 0 auto
+      margin-bottom: 30px
+      width: 48%
+      height: auto
+      padding: 20px
+      position: relative
+      overflow: hidden
+      img
+        width: 100%
+        justify-content: space-around
+    &__items:hover
+      transition: 1s
+      transform: scale(1.1)
+      box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5)
+@media screen and (max-width: 560px)
+  .portpholio
+    &__items
+      margin: 0 auto
+      margin-bottom: 30px
+      width: 80%
+      position: relative
+      overflow: hidden
+      // img
+      //   width: 100%
+      //   justify-content: space-around
+    &__items:hover
+      transition: 1s
+      transform: scale(1.1)
+      box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5)
+
+@media screen and (max-width: 430px)
+  .portpholio
+    &__items
+      margin: 0 auto
+      margin-bottom: 30px
+      width: 80%
+      position: relative
+      overflow: hidden
+    &__items:hover
+      transition: 1s
+      transform: scale(1.1)
+      box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5)

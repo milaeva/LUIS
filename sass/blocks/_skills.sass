@@ -9,60 +9,97 @@
     display: flex
     padding-top: 120px
     padding-bottom: 50px
-  &__row
+  &__pic
     display: flex
-    justify-content: space-between
-  &__line
-    background-color: #fafafa
-    min-width: 950px
-    height: 63px
-    border-top: 1px solid grey
-  &__column
-    display: flex
-    align-items: flex-start
-    justify-content: flex-end
-    margin-left: 150px
-    +asap
-  &__item
-    margin-left: 180px
-    margin-right: 160px
-    justify-content: center
-    margin-left: 50px
-    padding-top: 10px
-    padding-bottom: 20px
-    +asap
-  &__image
-    margin-top: -485px
-    margin-left: 185px
-    position: absolute
-  &__rows
-    min-width: 950px
-    margin-top: 40px
-    margin-left: 220px
-    display: flex
-    justify-content: center
-    align-items: center
-  &__icon1
-    border: 2px solid #d80db6
-    background-color: black
-    color: #d80db6
-    padding: 5px
-    margin-bottom: 40px
-  &__icon2
-    border: 2px solid #d199ea
-    background-color: #452c5e
-    padding: 5px
-    color: #d199ea
-    margin-bottom: 40px
-  &__icon3
-    border: 2px solid #268cfc
-    background-color: #203551
-    color: #268cfc
-    padding: 5px
-    margin-bottom: 40px
-  &__icon4
-    border: 2px solid #f46031
-    background-color: black
-    color: #f46031
-    padding: 5px
-    margin-bottom: 40px
+    width: 100%
+    height: 100%
+    top: 0
+    left: 0
+    object-fit: cover
+  &__img
+    margin: 20px
+    margin-right: 20px
+    width: 100%
+    height: 100%
+    top: 0
+    left: 0
+    object-fit: cover
+    transform: scale(1.1) translateZ(0)
+    transition: transform .7s
+
+
+@media screen and (max-width: 1120px)
+  .skills
+    &__pic
+      height: auto
+      max-width: 1090px
+  // &__row
+  //   display: flex
+  //   justify-content: space-between
+  // &__line
+  //   background-color: #fafafa
+  //   min-width: 950px
+  //   height: 63px
+  //   border-top: 1px solid grey
+  // &__column
+  //   display: flex
+  //   align-items: flex-start
+  //   justify-content: flex-end
+  //   margin-left: 150px
+  //   +asap
+  // &__item
+  //   margin-left: 180px
+  //   margin-right: 160px
+  //   justify-content: center
+  //   margin-left: 50px
+  //   padding-top: 10px
+  //   padding-bottom: 20px
+  //   +asap
+  // &__image
+  //   margin-top: -485px
+  //   margin-left: 185px
+  //   position: absolute
+  // &__rows
+  //   min-width: 950px
+  //   margin-top: 40px
+  //   margin-left: 220px
+  //   display: flex
+  //   justify-content: center
+  //   align-items: center
+  // &__icon1
+  //   border: 2px solid #d80db6
+  //   background-color: black
+  //   color: #d80db6
+  //   padding: 5px
+  //   margin-bottom: 40px
+  // &__icon2
+  //   border: 2px solid #d199ea
+  //   background-color: #452c5e
+  //   padding: 5px
+  //   color: #d199ea
+  //   margin-bottom: 40px
+  // &__icon3
+  //   border: 2px solid #268cfc
+  //   background-color: #203551
+  //   color: #268cfc
+  //   padding: 5px
+  //   margin-bottom: 40px
+  // &__icon4
+  //   border: 2px solid #f46031
+  //   background-color: black
+  //   color: #f46031
+  //   padding: 5px
+// //     margin-bottom: 40px
+@media screen and (max-width: 430px)
+  .skills
+    &__title
+      padding-top: 20px
+      padding-bottom: 0
+    &__pic
+      max-width: 400px
+      display: flex
+      justify-content: center
+      align-items: center
+      object-fit: cover
+      width: 100%
+      margin-bottom: 20px

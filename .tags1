@@ -5,6 +5,10 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
 .feedback	D:\github\LUIS\sass\blocks\_feedback.sass	/^.feedback$/;"	function	line:1
-input	D:\github\LUIS\sass\blocks\_feedback.sass	/^  input$/;"	function	line:24
-textarea	D:\github\LUIS\sass\blocks\_feedback.sass	/^  textarea$/;"	function	line:33
-footer	D:\github\LUIS\sass\blocks\_feedback.sass	/^footer$/;"	function	line:60
+input	D:\github\LUIS\sass\blocks\_feedback.sass	/^  input$/;"	function	line:30
+textarea	D:\github\LUIS\sass\blocks\_feedback.sass	/^  textarea$/;"	function	line:39
+footer	D:\github\LUIS\sass\blocks\_feedback.sass	/^footer$/;"	function	line:71
+.feedback	D:\github\LUIS\sass\blocks\_feedback.sass	/^  .feedback$/;"	function	line:81
+.feedback	D:\github\LUIS\sass\blocks\_feedback.sass	/^  .feedback$/;"	function	line:90
+input	D:\github\LUIS\sass\blocks\_feedback.sass	/^    input$/;"	function	line:107
+textarea	D:\github\LUIS\sass\blocks\_feedback.sass	/^    textarea$/;"	function	line:110
